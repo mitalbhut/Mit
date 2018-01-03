@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :pets
   resources :restaurants
   get 'pages/about'
 
